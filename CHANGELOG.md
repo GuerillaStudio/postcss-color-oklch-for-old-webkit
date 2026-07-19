@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.3
+* Rollback from shrinkwrap to classic package-lock
+
 ## 0.1.2
 * package.json: Move actual dependencies from peerDependencies
 
