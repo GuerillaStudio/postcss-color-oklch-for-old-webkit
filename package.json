@@ -25,14 +25,14 @@
     "node": ">=22.0.0"
   },
   "peerDependencies": {
-    "postcss": "^8.4.27"
-  },
-  "devDependencies": {
-    "big.js": "^7.0.1",
-    "eslint": "^8.47.0",
     "postcss": "^8.4.27",
     "postcss-values-parser": "^8.0.0",
-    "string-percent": "^1.1.0"
+    "string-percent": "^1.1.0",
+    "big.js": "^7.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.27",
+    "eslint": "^8.47.0"
   },
   "eslintConfig": {
     "parserOptions": {
