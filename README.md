@@ -33,7 +33,7 @@
     - custom properties (aka CSS variables)
     - relative colors
 2. To limit differences between the input and output the plugin will *replace* the initial oklch values with the new ones. There is no fallback system in place keeping the original values on compatible browsers since no simple and bulletproof systems would work
-3. Requires NodeJS >= 20.19.0 for now
+3. Requires NodeJS >= 22.0.0 for now
 
 ## Usage
 
