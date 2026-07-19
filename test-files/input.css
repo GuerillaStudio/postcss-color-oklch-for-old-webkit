@@ -1,0 +1,16 @@
+:root {
+	--color-text-raise: oklch(20% 5% var(--hue-brand));
+	--color-text-default: oklch(35% 5% var(--hue-brand));
+	--color-text-secondary: oklch(45% 5% var(--hue-brand));
+	--color-text-tertiary: oklch(55% 5% var(--hue-brand));
+	--color-text-quaternary: oklch(75% 5% var(--hue-brand));
+	--color-surface-default: oklch(98% 0.666666666666666% var(--hue-brand));
+	--color-surface-secondary: oklch(.92 2% var(--hue-brand));
+	--color-surface-tertiary: oklch(0.95 1.5% var(--hue-brand));
+	--color-stroke-default: oklch(80.126% 5% var(--hue-brand));
+	--color-stroke-secondary: oklch(94.213% 1.355% var(--hue-brand));
+}
+.alert--brand {
+	--alert-border-color: oklch(from var(--color-surface-brand) calc(l - 0.15) calc(c + 0.025) h);
+}
+
