@@ -1,0 +1,41 @@
+{
+  "name": "postcss-color-oklch-for-old-webkit",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to convert lightness and chroma values of oklch() into units compatible with old versions of webkit",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "oklch",
+    "safari",
+    "webkit",
+    "postcss-color-oklch-for-old-webkit"
+  ],
+  "scripts": {
+    "unit": "node --test index.test.js",
+    "test": "npm run unit && eslint ."
+  },
+  "author": "Tixie",
+  "license": "MIT",
+  "repository": "GuerillaStudio/postcss-color-oklch-for-old-webkit",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.27"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "postcss": "^8.4.27"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": ["eslint:recommended"]
+  }
+}
