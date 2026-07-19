@@ -70,7 +70,6 @@ module.exports = {
 vim CHANGELOG.md # update the version and its content in this file
 vim package.json # update the version in this file
 npm install # update the version in the lock file and check security audit
-npm shrinkwrap # make suuuure the lock file is up to date
 npm run test # check it behave as expected and no eslint issue
 git commit -a -m 'set version 0.1.0' # commit your change
 git push # send update
