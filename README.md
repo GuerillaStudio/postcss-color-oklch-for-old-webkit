@@ -75,5 +75,5 @@ git commit -a -m 'set version 0.1.0' # commit your change
 git push # send update
 git tag -m 'v0.1.0' v0.1.0 # create associated tag
 git push --tags # push tag
-npm publish # build and push the package
+npx clean-publish # build and push the package
 ```
