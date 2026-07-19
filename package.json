@@ -1,6 +1,6 @@
 {
   "name": "postcss-color-oklch-for-old-webkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostCSS plugin to convert lightness and chroma values of oklch() into units compatible with old versions of webkit",
   "keywords": [
     "postcss",
